@@ -1,0 +1,30 @@
+<！doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<元名称=“视口”内容=“宽度=设备宽度，初始比例=1.0”>
+<title>QQ信息获取工具</title>
+<link rel="stylesheet"href="style.css">
+</head>
+<body>
+<div class="tool-container">
+<h2>QQ信息获取工具</h2>
+<! -- 右上角小喇叭：查看公告 -->
+<div class="notice-icon"id="noticeIcon">📢</div>
+<! -- 公告区：默认隐藏 -->
+<div class="notice-bar"id="noticeBar"></div>
+
+<div class="input-group">
+<input type="text"id="qqInput"placeholder="请输入QQ号(如：123456789)">
+<button id="fetchBtn">获取QQ信息</button>
+</div>
+<! -- 文字+头像混合展示区（不独立） -->
+<div class="text-result"id="textResult">
+<p>输入QQ号并点击按钮，将显示昵称、邮箱、头像...</p>
+</div>
+</div>
+
+<script src="noticeConfig.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
